@@ -1,0 +1,112 @@
+/* Global styles */
+.productsbody {
+    background: linear-gradient(#bbd8ec, #faf3cd);
+    color: #1D5D9B;
+  }
+  
+  h2 {
+    color: #1D5D9B;
+  }
+  
+  p {
+    color: #1D5D9B;
+  }
+  
+  /* Filter section styles */
+  .filterSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-h2 {
+    color: #1D5D9B;
+  }
+  
+  .filter-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .filter-checkbox {
+    margin-right: 10px;
+  }
+  
+  .price-filter {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .price-filter label {
+    margin-right: 5px;
+    color: #1D5D9B;
+  }
+  
+  .filterPrice {
+    margin-left: 5px;
+    padding: 5px;
+    color: #1D5D9B;
+    border: 1px solid #1D5D9B;
+    border-radius: 4px;
+  }
+  
+  /* Card styles */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #F4D160;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    color: #1D5D9B;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 14px;
+    color: #1D5D9B;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    color: #1D5D9B;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+  /* Additional styles */
+  .filter-checkboxes > div {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .price-filter {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

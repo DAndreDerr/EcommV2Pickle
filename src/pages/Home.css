@@ -1,0 +1,60 @@
+
+.hero-image {
+    background-image: url('../images/pickleballplayershere.webp');
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-image img {
+    text-align: center;
+    justify-self: center;
+    width: 20rem;
+}
+
+.homepage {
+    padding: 20px;
+    background: linear-gradient(#bbd8ec, #faf3cd);
+    color: #1D5D9B;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .section {
+    margin-bottom: 40px;
+  }
+
+  .section-heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .highlight {
+    color: #75C2F6;
+    font-weight: bolder;
+  }
+
+  .section-description {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Add responsive styles here */
+  @media (max-width: 768px) {
+    .section-heading {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .section-heading {
+      font-size: 24px;
+    }
+
+    .section-description {
+      font-size: 16px;
+    }
+  }
