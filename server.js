@@ -9,10 +9,10 @@ app.use(express.json());
 
 
 const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
+    host: "eccomv2.cki4l5elizud.us-east-2.rds.amazonaws.com",
+    user: "admin",
     password: "password",
-    database: "EccomerceV2"
+    database: "EcommV2Data"
 });
 
 connection.connect((err) => {
