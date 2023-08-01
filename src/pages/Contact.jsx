@@ -22,7 +22,7 @@ const Contact = () => {
 
   const handleSubmit = event => {
     event.preventDefault();
-    // Perform form submission or validation here
+    // Perform form submission or validation
     console.log(formData);
   };
 

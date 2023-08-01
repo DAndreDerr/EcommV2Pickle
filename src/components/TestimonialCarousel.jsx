@@ -9,7 +9,7 @@ import img4 from '../testimonial/testimonial4.png';
 import img5 from '../testimonial/testimonial5.png';
 import img6 from '../testimonial/testimonial6.png';
 import img7 from '../testimonial/testimonial7.png';
-import './TestimonialCarousel.css'; // Import your CSS file for custom styles
+import './TestimonialCarousel.css';
 
 const TestimonialCarousel = () => {
   const testimonials = [
